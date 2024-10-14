@@ -1,0 +1,321 @@
+*{
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+    }
+body{
+    padding: 15px;
+}
+.kvadrat{
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    position: relative;
+}
+.dairə{
+position: absolute;
+width: 100px;
+height: 100px;
+top: 160px;
+left: 215px;
+border: 2px solid red ;
+border-radius: 50%;
+background-color: red;
+}
+.steve{
+    margin-top: 30px;
+}
+td,.about,.Childhood,.career,.family,.facts {
+    border: 1px solid #80ced6;
+    background-color: rgb(181, 245, 245);
+    padding: 10px;   
+}
+.about{
+    margin-top:25px;
+    height: 270px;}
+.Childhoods{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top:-50px ;
+}
+.Childhood {
+    height: 45px;
+}
+.career{
+    height: 520px;
+}
+.family{
+    height:160px;
+}
+.facts{
+    height: 250px;
+}
+.about,.Childhood,.career,.family,.facts{ 
+    width: 500px;
+    padding: 30px;
+    border-radius: 15px;}
+
+.steve2{
+    margin-top:10px;
+}
+.komputer{
+    margin: 10px 110px;
+    display: flex;
+    gap: 15px;
+}
+.komp1,.komp2{
+    width: 330px;
+    height:400px;
+    padding: 15px;
+    border:1px solid grey;
+    border-radius: 15px;
+}
+.foto{
+    margin: auto;
+    width: 300px;
+    height: 180px;
+}
+.komp1 pre, .komp2 pre{
+    background-color: rgb(206, 239, 243);
+}
+.title{
+    font-weight: bold;
+    font-size: larger;
+}
+.komp1 #price,.komp2 #price{
+    color:rgb(146, 49, 32);
+    background-color: white;
+}
+.komp1 a, .komp2 a{
+   font-weight: bold;
+   color: blueviolet;
+}
+.qutular{
+    padding-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.h1{
+    height: 50px;
+    background-color:black;
+}
+.qutular .qutu{
+    margin: 20px;
+    background-color: lightgrey;
+    width: 260px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+.qutular .p{
+    width: 1500px;
+    height: 40px;
+    background-color: plum;
+    border-radius: 10px;
+    border: 1px solid plum;
+    margin:70px 120px 5px -90px;
+
+}
+.elon{
+   text-align: center;
+   margin: auto;
+   padding: 20px;
+   width: 1000px;
+   height: 100px;
+   background-color: rgb(170, 167, 167);
+}
+.elon .title {
+    font-size: 200%;
+    font-weight: bolder;
+}
+.elon p{
+    font-size: 150%;
+    font-weight: bolder;
+}
+.navigation {
+    color: black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 30px;
+    margin-top: 20px;
+}
+.navigation a {
+     color: black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.tesla,.spacex,.truck{
+   width: 900px;
+   height: 130px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   border: 1px solid grey;
+   padding: 20px 50px;
+}
+.tesla p,.spacex p,.truck p{
+    font-size: 100%;
+    font-weight: bolder;
+}
+.tesla ul,.spacex ul,.truck ul{
+    padding-left: 50px;
+}
+.ayaqqabi .navigation{
+    height: 30px;
+    font-weight: bolder; 
+}
+.description{
+    padding: 70px;
+    border-top: 2px solid rgb(160, 157, 157);
+    display: flex;
+    border-bottom:1px solid black;
+}
+.left p{
+    width: 200px;
+    height: 20px;
+    font-weight: bolder; 
+    margin-left: 50px;   
+}
+
+.left span{
+    color: rgb(184, 189, 189);
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 50px ; 
+}
+.right img{
+    width: 250px;
+    height: 230px;    
+}
+.shoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.shoes .name{
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    justify-content: space-between;}
+.shoes .title{
+    font-size: 15px;
+    color: rgb(184, 189, 189);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 13px;}
+  
+
+.parent{
+margin: 80px 500px;
+}
+.beden{
+    display: flex;
+}
+.bas{
+    position: relative;
+    margin: auto;
+    display:flex;
+    margin-left: 75px;
+    margin-bottom: -30px;
+    width: 150px; 
+    height: 80px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.sol{
+    width: 150px;
+    height: 250px;
+    background-color: red ;
+    border: 1px solid black;
+    border-radius: 50% 0% 0% 50%;
+    position: relative;
+}
+.sag{
+    width: 150px;
+    height: 250px;
+    background-color: red ;
+    border: 1px solid black;
+    border-radius: 0% 50% 50% 0%;
+    position: relative;
+}
+.noqte1,.noqte2,.noqte3,.noqte4,.noqte5,.noqte6{
+   position: absolute;
+   background-color: black;
+   width: 30px;
+   height: 30px;
+   border:1px solid black;
+   background-color: black;
+   border-radius: 50%;
+}
+
+.sol .noqte1,.sag .noqte1{
+    top: 30px;
+    right: 40px;
+}
+.sol .noqte2,.sag .noqte2{
+    top: 50px;
+    left: 20px;}
+.sol .noqte3,.sag .noqte3{
+    bottom: 30px;
+    right: 20px; }
+.sol .noqte4,.sag .noqte4{
+    top: 100px;
+    right: 20px;}
+.sol .noqte5,.sag .noqte5{
+    bottom: 20px;
+    right: 68px;
+}
+.sol .noqte6,.sag .noqte6{
+    bottom: 100px;
+   right: 80px;}
+
+.noqte7,.noqte8{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(8, 8, 12);
+    border-radius: 50%;  
+}
+.bas .noqte7{
+    top: 10px;
+    left: 20px;
+}
+.bas .noqte8{
+    top: 10px;
+    right: 20px;
+}
+p:hover{
+    background-color: rgb(241, 238, 8);
+}
+.parent:hover{
+    width: 400px;
+    height: 350px;
+    border-radius:50% 0 50% 0 ;
+    border: 1px solid green;
+    background-color: chartreuse;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding-left: 120px;
+    padding-bottom: 70px;
+}
+
